@@ -14,7 +14,7 @@ public class AnvilCommand implements CommandExecutor {
 
         if (cmd.getLabel().equalsIgnoreCase("anvil")&& sender instanceof Player){
 
-            Player player = (Player) ((Player) sender).getPlayer();
+            Player player = ((Player) sender).getPlayer();
 
             if (player.hasPermission("anvilanywhere.use") || player.isOp()){
 
