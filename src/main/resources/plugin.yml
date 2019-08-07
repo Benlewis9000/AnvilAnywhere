@@ -1,0 +1,9 @@
+name: AnvilAnywhere
+version: ${project.version}
+main: github.benlewis9000.anvilanywhere.AnvilAnywhere
+commands:
+  anvil:
+    description: Opens an anvil GUI
+  permissions:
+    anvilanywhere.use:
+      description: Open an anvil with /anvil
